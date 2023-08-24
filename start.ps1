@@ -43,3 +43,4 @@ Start-Process powershell -Verb RunAs -ArgumentList "-File copy_files.ps1" -Wait
 Write-Host "copy_files.ps1 script has finished. Continuing..."
 Write-Host "now we're going to mount and modify your windows!"
 Start-Process powershell -Verb RunAs -ArgumentList "-File dism.ps1" -Wait
+Start-Process powershell -Verb RunAs -ArgumentList "-File debloat.ps1" -Wait
